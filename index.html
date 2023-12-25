@@ -68,6 +68,7 @@
           text-align: center;
           color: hsl(0,0%,45.1%);
           font-family: Sans-Serif;
+          color: #787878;
         }
         
         .col {
@@ -119,9 +120,14 @@
           text-decoration: underline;
         }
         
+        .haha {
+          color: skyblue;
+        }
+        
          ol li, ul li {
           color: white;
         }
+        
     </style>
 </head>
 <body>
@@ -144,7 +150,7 @@
   <ul type="circle">
     <li>chat bebas</li>
     <li>toxic sewajarnya aja rek</li>
-    <li>no 18+ <span style="color: skyblue;">dosa</span> wak</li>
+    <li>no porn/hentai <a class="haha" href="https://www.suara.com/lifestyle/2023/07/03/194500/hukum-menonton-film-porno-dalam-pandangan-islam-buya-yahya-bagikan-beberapa-bahayanya">dosa wak</a></li>
     <li>no virtex/bug ampas kids&#128686;
     <li>no baper</li>
     <li>asikin aja wir</li>
@@ -176,6 +182,19 @@
         <footer>&copy; 2023 - <span id="currentYear"></span></footer>
         <script>
     document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+    
+    let isValidAnswer = false;
+
+  while (!isValidAnswer) {
+    const answer = prompt('Apakah Ardan ganteng? Ketik Ganteng untuk melanjutkan.');
+
+    if (answer && answer.toLowerCase().includes('ganteng')) {
+      alert('Mantap! Btw gw emang ganteng awokawok');
+      isValidAnswer = true;
+    } else {
+      alert('Mampus lu gabisa kan makanya ketik Ganteng');
+    }
+  }
     </script>
 </body>
 </html>
