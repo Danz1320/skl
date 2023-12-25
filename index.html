@@ -141,8 +141,11 @@
           </div>
           <br>
           <p class="kerjabagus">&#9760; Sedulur Konco Lawas &#9760;<br>
-arya - ardan - faiz - ardi - haekal - ikram - noe </p>
+| arya | ardan | faiz | ardi | haekal | ikram | Noe</p>
          <br>
-         <footer>&copy; 2023 - <script>document.write(new Date().getFullYear())</script>
+        <footer>&copy; 2023 - <span id="currentYear"></span></footer>
+        <script>
+    document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
